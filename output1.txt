@@ -1,0 +1,39 @@
+diff
+growth
+tito
+growth.t  growth.t
+growth.c  growth.c
+growth.p  growth.p
+in select
+growth.c
+growth.c
+in where
+growth.p>10000
+growth.t=2000
+2
+lilo
+lilo
+in where
+growth.p>=10000
+growth.t=2000
+diff
+location
+diff
+country
+location.c  location.c
+location.x  change1
+location.y  location.y
+country.id  country.id
+country.x  change1
+country.y  country.y
+country.t  country.t
+in select
+location.c
+in where
+country.id=1
+1
+lilo
+in where
+country.id=1
+Temp(locationc) :- location(locationc,change1,locationy),country(countryid,change1,countryy,countryt),countryid=1.
+till here

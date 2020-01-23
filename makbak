@@ -1,0 +1,55 @@
+CFLAGS = -lm
+CC=CC  
+FLEX_FLAGS = -8 -I -L -H/usr/home/disco/flex/flexskel.h -S/usr/home/disco/flex/flexskel.cc
+YACC_FLAGS = -l -d
+FLEX = /usr/home/disco/flex/flex++
+BISON =  /usr/dist/pkgs/bison++-1.21-8/bin/bison++ --debug -v
+
+.SUFFIXES : .cc .y .l $(SUFFIXES)
+
+.cc.o :
+	$(CC) $(CFLAGS) -c $*.cc
+
+.y.cc :
+	$(BISON) $(YACC_FLAGS) -o$*.cc -h$*.h  $*.y
+
+.l.cc :
+	$(FLEX)  $(FLEX_FLAGS) -h$*.h -o$*.cc $*.l
+.y.h :
+	$(BISON) $(YACC_FLAGS) -o$*.cc -h$*.h  $*.y
+.l.h :
+	$(FLEX) $(FLEX_FLAGS) -h$*.h -o$*.cc $*.l
+
+.h.c:
+	touch $*.c
+
+obj= scanner.o parser.o  string.o engine.o
+lcs:  $(obj) stack.c
+	$(CC) $(obj) $(CFLAGS) lcs.c  -o lcs
+
+
+parser.o : parser.cc parser.h
+
+scanner.o : scanner.cc scanner.h parser.h
+
+parser.cc : parser.y scanner.l
+
+scanner.cc : scanner.l parser.y parser.cc
+
+parser.h : parser.y
+
+scanner.h : scanner.l
+
+
+
+
+ptclean:
+	ptclean
+
+clean:
+	rm -rf *.o parser.h parser.cc parser.o scanner.h scanner.cc scanner.o\
+     core lcs
+
+fresh:
+	rm -rf *.o parser.h parser.cc parser.o scanner.h scanner.cc scanner.o\
+     core disco ptrepository

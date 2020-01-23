@@ -1,0 +1,1081 @@
+# Microsoft Developer Studio Generated Dependency File, included by mlpq_nt.mak
+
+.\arg.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\db.h"\
+	".\dlist.h"\
+	".\globals.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\lpkit.h"\
+	".\matrix.h"\
+	".\relation.h"\
+	".\slist.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\BasicSQL.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\BasicSQL.h"\
+	".\idb.h"\
+	".\NewSocket.h"\
+	".\ServerSocket.h"\
+	".\StdAfx.h"\
+	
+
+.\basicsqldialogbox.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\basicsqldialogbox.h"\
+	".\db.h"\
+	".\dlist.h"\
+	".\globals.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\idb.h"\
+	".\idbDoc.h"\
+	".\lpkit.h"\
+	".\matrix.h"\
+	".\NewSocket.h"\
+	".\relation.h"\
+	".\ServerSocket.h"\
+	".\slist.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\BitmapFile.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\BitmapFile.h"\
+	".\JCONFIG.H"\
+	".\JMORECFG.H"\
+	".\JPEGLIB.H"\
+	".\StdAfx.h"\
+	
+
+.\ChildFrm.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\ChildFrm.h"\
+	".\db.h"\
+	".\dlist.h"\
+	".\ex29aView.h"\
+	".\globals.h"\
+	".\GraphView.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\idb.h"\
+	".\idbDoc.h"\
+	".\idbView.h"\
+	".\lpkit.h"\
+	".\matrix.h"\
+	".\MatrixView.h"\
+	".\NewSocket.h"\
+	".\OwnListBox.h"\
+	".\PointView.h"\
+	".\relation.h"\
+	".\RowView.h"\
+	".\ServerSocket.h"\
+	".\slist.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\construct.cpp : \
+	".\triangulate.h"\
+	
+
+.\csa_debug.c : \
+	".\csa_defs.h"\
+	".\csa_types.h"\
+	
+
+.\csa_q_main.c : \
+	".\csa_defs.h"\
+	".\csa_types.h"\
+	
+
+.\csa_stack.c : \
+	".\csa_types.h"\
+	
+
+.\db.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\db.h"\
+	".\dlist.h"\
+	".\globals.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\lp_solve.h"\
+	".\lpkit.h"\
+	".\MainFrm.h"\
+	".\matrix.h"\
+	".\relation.h"\
+	".\slist.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\debug.c : \
+	".\hash.h"\
+	".\lpglob.h"\
+	".\lpkit.h"\
+	
+
+.\DlgArea.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\DlgArea.h"\
+	".\idb.h"\
+	".\NewSocket.h"\
+	".\ServerSocket.h"\
+	".\StdAfx.h"\
+	
+
+.\DlgArea2.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\DlgArea2.h"\
+	".\idb.h"\
+	".\NewSocket.h"\
+	".\ServerSocket.h"\
+	".\StdAfx.h"\
+	
+
+.\DlgBlock.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\DlgBlock.h"\
+	".\idb.h"\
+	".\NewSocket.h"\
+	".\ServerSocket.h"\
+	".\StdAfx.h"\
+	
+
+.\DlgBuffer.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\db.h"\
+	".\DlgBuffer.h"\
+	".\dlist.h"\
+	".\globals.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\idb.h"\
+	".\idbDoc.h"\
+	".\lpkit.h"\
+	".\matrix.h"\
+	".\NewSocket.h"\
+	".\relation.h"\
+	".\ServerSocket.h"\
+	".\slist.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\DlgColor.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\db.h"\
+	".\DlgColor.h"\
+	".\DlgRange.h"\
+	".\dlist.h"\
+	".\globals.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\idb.h"\
+	".\idbDoc.h"\
+	".\lpkit.h"\
+	".\matrix.h"\
+	".\NewSocket.h"\
+	".\range.h"\
+	".\relation.h"\
+	".\ServerSocket.h"\
+	".\slist.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\DlgExpo.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\DlgExpo.h"\
+	".\idb.h"\
+	".\NewSocket.h"\
+	".\ServerSocket.h"\
+	".\StdAfx.h"\
+	
+
+.\DlgExport.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\dlgexport.h"\
+	".\idb.h"\
+	".\NewSocket.h"\
+	".\ServerSocket.h"\
+	".\StdAfx.h"\
+	
+
+.\DlgGenN.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\db.h"\
+	".\DlgGenN.h"\
+	".\dlist.h"\
+	".\globals.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\idb.h"\
+	".\idbDoc.h"\
+	".\lpkit.h"\
+	".\matrix.h"\
+	".\NewSocket.h"\
+	".\relation.h"\
+	".\ServerSocket.h"\
+	".\slist.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\DlgInput.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\DlgInput.h"\
+	".\idb.h"\
+	".\NewSocket.h"\
+	".\ServerSocket.h"\
+	".\StdAfx.h"\
+	
+
+.\DlgInsR.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\DlgInsR.h"\
+	".\idb.h"\
+	".\NewSocket.h"\
+	".\ServerSocket.h"\
+	".\StdAfx.h"\
+	
+
+.\DlgMaxMin.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\DlgMaxMin.h"\
+	".\idb.h"\
+	".\NewSocket.h"\
+	".\ServerSocket.h"\
+	".\StdAfx.h"\
+	
+
+.\DlgName.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\DlgName.h"\
+	".\idb.h"\
+	".\NewSocket.h"\
+	".\ServerSocket.h"\
+	".\StdAfx.h"\
+	
+
+.\DlgNtime.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\DlgNtime.h"\
+	".\idb.h"\
+	".\NewSocket.h"\
+	".\ServerSocket.h"\
+	".\StdAfx.h"\
+	
+
+.\DlgProp.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\DlgProp.h"\
+	".\idb.h"\
+	".\NewSocket.h"\
+	".\ServerSocket.h"\
+	".\StdAfx.h"\
+	
+
+.\DlgRange.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\DlgRange.h"\
+	".\idb.h"\
+	".\NewSocket.h"\
+	".\ServerSocket.h"\
+	".\StdAfx.h"\
+	
+
+.\DlgRelName.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\db.h"\
+	".\DlgRelName.h"\
+	".\dlist.h"\
+	".\globals.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\idb.h"\
+	".\idbDoc.h"\
+	".\lpkit.h"\
+	".\matrix.h"\
+	".\NewSocket.h"\
+	".\relation.h"\
+	".\ServerSocket.h"\
+	".\slist.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\dlist.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\dlist.h"\
+	".\globals.h"\
+	".\StdAfx.h"\
+	
+
+.\engine.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\db.h"\
+	".\dlist.h"\
+	".\engine.h"\
+	".\globals.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\lpkit.h"\
+	".\matrix.h"\
+	".\parser.h"\
+	".\relation.h"\
+	".\scanner.h"\
+	".\slist.h"\
+	".\stack.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\ex29aView.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\db.h"\
+	".\dlist.h"\
+	".\ex29aView.h"\
+	".\globals.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\idb.h"\
+	".\idbDoc.h"\
+	".\lpkit.h"\
+	".\matrix.h"\
+	".\NewSocket.h"\
+	".\relation.h"\
+	".\RowView.h"\
+	".\ServerSocket.h"\
+	".\slist.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\globals.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\globals.h"\
+	".\StdAfx.h"\
+	
+
+.\GraphView.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\BitmapFile.h"\
+	".\db.h"\
+	".\DlgGenN.h"\
+	".\DlgName.h"\
+	".\dlist.h"\
+	".\globals.h"\
+	".\GraphView.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\idb.h"\
+	".\idbDoc.h"\
+	".\idbView.h"\
+	".\JCONFIG.H"\
+	".\JMORECFG.H"\
+	".\JPEGLIB.H"\
+	".\lpkit.h"\
+	".\MainFrm.h"\
+	".\matrix.h"\
+	".\NewSocket.h"\
+	".\OwnListBox.h"\
+	".\range.h"\
+	".\relation.h"\
+	".\scdrawobj.h"\
+	".\SCDrawtool.h"\
+	".\ServerSocket.h"\
+	".\slist.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\hash.c : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\hash.h"\
+	".\lpkit.h"\
+	
+
+.\hulconvt.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\db.h"\
+	".\dlist.h"\
+	".\globals.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\lpkit.h"\
+	".\matrix.h"\
+	".\relation.h"\
+	".\slist.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\hulreconvt.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\db.h"\
+	".\dlist.h"\
+	".\globals.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\lpkit.h"\
+	".\matrix.h"\
+	".\relation.h"\
+	".\slist.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\idb.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\ChildFrm.h"\
+	".\db.h"\
+	".\dlist.h"\
+	".\engine.h"\
+	".\globals.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\idb.h"\
+	".\idbDoc.h"\
+	".\idbView.h"\
+	".\lpkit.h"\
+	".\MainFrm.h"\
+	".\matrix.h"\
+	".\NewSocket.h"\
+	".\OwnListBox.h"\
+	".\parser.h"\
+	".\relation.h"\
+	".\scanner.h"\
+	".\ServerSocket.h"\
+	".\slist.h"\
+	".\stack.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\idb.rc : \
+	".\res\bitmap1.bmp"\
+	".\res\drawtool.bmp"\
+	".\res\ico00001.ico"\
+	".\res\Icon2.ico"\
+	".\res\idb.rc2"\
+	".\res\nebraska.ico"\
+	".\res\PENCIL.CUR"\
+	".\res\Toolbar.bmp"\
+	".\res\toolbar1.bmp"\
+	
+
+.\idbDoc.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\BasicSQL.h"\
+	".\basicsqldialogbox.h"\
+	".\db.h"\
+	".\DlgExpo.h"\
+	".\dlgexport.h"\
+	".\DlgInput.h"\
+	".\DlgInsR.h"\
+	".\DlgMaxMin.h"\
+	".\DlgNtime.h"\
+	".\DlgProp.h"\
+	".\DlgRelName.h"\
+	".\dlist.h"\
+	".\engine.h"\
+	".\globals.h"\
+	".\GraphView.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\idb.h"\
+	".\idbDoc.h"\
+	".\interface.h"\
+	".\list.h"\
+	".\lpkit.h"\
+	".\MainFrm.h"\
+	".\matrix.h"\
+	".\myparse.h"\
+	".\NewSocket.h"\
+	".\OnNestedSql.h"\
+	".\parser.h"\
+	".\range.h"\
+	".\relation.h"\
+	".\Render.h"\
+	".\scanner.h"\
+	".\scdrawobj.h"\
+	".\ServerSocket.h"\
+	".\slist.h"\
+	".\SqlAggregation.h"\
+	".\SqlDialogBox.h"\
+	".\SqlSets.h"\
+	".\stack.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\TableSel.h"\
+	".\triangulate.h"\
+	".\vector.h"\
+	
+
+.\idbView.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\db.h"\
+	".\dlgapproximation.h"\
+	".\DlgArea.h"\
+	".\DlgArea2.h"\
+	".\DlgBlock.h"\
+	".\DlgBuffer.h"\
+	".\DlgColor.h"\
+	".\DlgName.h"\
+	".\dlist.h"\
+	".\globals.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\idb.h"\
+	".\idbDoc.h"\
+	".\idbView.h"\
+	".\lpkit.h"\
+	".\MainFrm.h"\
+	".\matrix.h"\
+	".\NewSocket.h"\
+	".\OnsetReg.h"\
+	".\OwnListBox.h"\
+	".\relation.h"\
+	".\Render.h"\
+	".\ServerSocket.h"\
+	".\slist.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\list.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\list.h"\
+	
+
+.\LP.C : \
+	".\hash.h"\
+	".\lex.c"\
+	".\lpglob.h"\
+	".\lpkit.h"\
+	".\read.h"\
+	
+
+.\lp_solve.c : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\hash.h"\
+	".\lpglob.h"\
+	".\lpkit.h"\
+	".\patchlevel.h"\
+	
+
+.\lpkit.c : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\hash.h"\
+	".\lpglob.h"\
+	".\lpkit.h"\
+	
+
+.\MainFrm.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\db.h"\
+	".\dlgapproximation.h"\
+	".\dlist.h"\
+	".\globals.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\idb.h"\
+	".\lpkit.h"\
+	".\MainFrm.h"\
+	".\matrix.h"\
+	".\NewSocket.h"\
+	".\relation.h"\
+	".\Render.h"\
+	".\ServerSocket.h"\
+	".\slist.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\MatrixView.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\db.h"\
+	".\dlist.h"\
+	".\globals.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\idb.h"\
+	".\idbDoc.h"\
+	".\lpkit.h"\
+	".\matrix.h"\
+	".\MatrixView.h"\
+	".\NewSocket.h"\
+	".\relation.h"\
+	".\ServerSocket.h"\
+	".\slist.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\misc.cpp : \
+	".\triangulate.h"\
+	
+
+.\monotone.cpp : \
+	".\triangulate.h"\
+	
+
+.\myparse.c : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\myparse.h"\
+	
+
+.\NewSocket.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\db.h"\
+	".\dlist.h"\
+	".\globals.h"\
+	".\GraphView.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\idb.h"\
+	".\idbDoc.h"\
+	".\idbView.h"\
+	".\lpkit.h"\
+	".\MainFrm.h"\
+	".\matrix.h"\
+	".\NewSocket.h"\
+	".\OwnListBox.h"\
+	".\relation.h"\
+	".\ServerSocket.h"\
+	".\slist.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\OnNestedSql.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\idb.h"\
+	".\NewSocket.h"\
+	".\OnNestedSql.h"\
+	".\ServerSocket.h"\
+	".\StdAfx.h"\
+	
+
+.\OnsetReg.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\db.h"\
+	".\dlist.h"\
+	".\globals.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\idb.h"\
+	".\idbDoc.h"\
+	".\idbView.h"\
+	".\lpkit.h"\
+	".\matrix.h"\
+	".\NewSocket.h"\
+	".\OnsetReg.h"\
+	".\OwnListBox.h"\
+	".\relation.h"\
+	".\ServerSocket.h"\
+	".\slist.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\OwnListBox.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\db.h"\
+	".\dlist.h"\
+	".\globals.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\idb.h"\
+	".\idbDoc.h"\
+	".\idbView.h"\
+	".\lpkit.h"\
+	".\matrix.h"\
+	".\NewSocket.h"\
+	".\OwnListBox.h"\
+	".\relation.h"\
+	".\ServerSocket.h"\
+	".\slist.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\parse.c : \
+	".\csa_defs.h"\
+	".\csa_types.h"\
+	
+
+.\parser.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\db.h"\
+	".\dlist.h"\
+	".\globals.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\lpkit.h"\
+	".\matrix.h"\
+	".\parser.h"\
+	".\relation.h"\
+	".\scanner.h"\
+	".\slist.h"\
+	".\stack.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\PointView.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\db.h"\
+	".\dlist.h"\
+	".\globals.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\idb.h"\
+	".\idbDoc.h"\
+	".\lpkit.h"\
+	".\matrix.h"\
+	".\NewSocket.h"\
+	".\PointView.h"\
+	".\relation.h"\
+	".\ServerSocket.h"\
+	".\slist.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\read.c : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\hash.h"\
+	".\lpglob.h"\
+	".\lpkit.h"\
+	
+
+.\readmps.c : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\hash.h"\
+	".\lpkit.h"\
+	".\patchlevel.h"\
+	
+
+.\refine.c : \
+	".\csa_defs.h"\
+	".\csa_types.h"\
+	
+
+.\relation.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\db.h"\
+	".\dlist.h"\
+	".\globals.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\lpkit.h"\
+	".\matrix.h"\
+	".\range.h"\
+	".\relation.h"\
+	".\slist.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\utilities.h"\
+	".\vector.h"\
+	
+
+.\Render.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\db.h"\
+	".\dlist.h"\
+	".\globals.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\idb.h"\
+	".\idbDoc.h"\
+	".\lpkit.h"\
+	".\matrix.h"\
+	".\NewSocket.h"\
+	".\relation.h"\
+	".\Render.h"\
+	".\ServerSocket.h"\
+	".\slist.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\RowView.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\RowView.h"\
+	".\StdAfx.h"\
+	
+
+.\scanner.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\db.h"\
+	".\dlist.h"\
+	".\globals.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\lpkit.h"\
+	".\matrix.h"\
+	".\parser.h"\
+	".\relation.h"\
+	".\scanner.h"\
+	".\slist.h"\
+	".\stack.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\SCDrawobj.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\db.h"\
+	".\dlist.h"\
+	".\globals.h"\
+	".\GraphView.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\idb.h"\
+	".\idbDoc.h"\
+	".\lpkit.h"\
+	".\matrix.h"\
+	".\NewSocket.h"\
+	".\relation.h"\
+	".\scdrawobj.h"\
+	".\ServerSocket.h"\
+	".\slist.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\SCDrawtool.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\db.h"\
+	".\dlist.h"\
+	".\globals.h"\
+	".\GraphView.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\idb.h"\
+	".\idbDoc.h"\
+	".\lpkit.h"\
+	".\matrix.h"\
+	".\NewSocket.h"\
+	".\relation.h"\
+	".\scdrawobj.h"\
+	".\SCDrawtool.h"\
+	".\ServerSocket.h"\
+	".\slist.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\ServerSocket.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\idb.h"\
+	".\NewSocket.h"\
+	".\ServerSocket.h"\
+	".\StdAfx.h"\
+	
+
+.\simplexlcs.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\arg.h"\
+	".\db.h"\
+	".\dlist.h"\
+	".\globals.h"\
+	".\hash.h"\
+	".\hulstruct.h"\
+	".\lpkit.h"\
+	".\matrix.h"\
+	".\relation.h"\
+	".\slist.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	".\vector.h"\
+	
+
+.\slist.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\globals.h"\
+	".\slist.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	
+
+.\solve.c : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\debug.h"\
+	".\hash.h"\
+	".\lpglob.h"\
+	".\lpkit.h"\
+	
+
+.\SqlAggregation.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\idb.h"\
+	".\NewSocket.h"\
+	".\ServerSocket.h"\
+	".\SqlAggregation.h"\
+	".\StdAfx.h"\
+	
+
+.\SqlDialogBox.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\idb.h"\
+	".\NewSocket.h"\
+	".\ServerSocket.h"\
+	".\SqlDialogBox.h"\
+	".\StdAfx.h"\
+	
+
+.\SqlSets.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\idb.h"\
+	".\NewSocket.h"\
+	".\ServerSocket.h"\
+	".\SqlSets.h"\
+	".\StdAfx.h"\
+	
+
+.\stack.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\StdAfx.h"\
+	
+
+.\string.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\globals.h"\
+	".\StdAfx.h"\
+	".\string.h"\
+	
+
+.\TableSel.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\string.h"\
+	".\StdAfx.h"\
+	".\TableSel.h"\
+	
+
+.\update_epsilon.c : \
+	".\csa_defs.h"\
+	".\csa_types.h"\
+	

@@ -1,0 +1,1346 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_DRAWTOOLS           BITMAP                  "res\\toolbar1.bmp"
+IDR_DRAWTOOLS1          BITMAP                  "res\\drawtool.bmp"
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDB_BITMAP1             BITMAP                  "res\\bitmap1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_DRAWTOOLS TOOLBAR  20, 19
+BEGIN
+    BUTTON      ID_SQL_DIALOG
+    SEPARATOR
+    BUTTON      ID_EDIT_INSRELATION
+    BUTTON      ID_APPROXIMATION
+    SEPARATOR
+    BUTTON      ID_OP_INTERSECTION
+    BUTTON      ID_OP_UNION
+    BUTTON      ID_OP_MINUS
+    BUTTON      ID_OP_COMPLEMENT
+    SEPARATOR
+    BUTTON      ID_OP_AREA
+    BUTTON      ID_BUFFER
+    SEPARATOR
+    BUTTON      ID_BUTTON_MAX
+    BUTTON      ID_BUTTON_MIN
+    SEPARATOR
+    BUTTON      ID_OP_BLOCK
+    BUTTON      ID_OP_COLLIDE
+    BUTTON      ID_BUTTON_SIM_QUERY
+    SEPARATOR
+    BUTTON      ID_DRAW_LINE
+    BUTTON      ID_DRAW_RECT
+    BUTTON      ID_DRAW_POLY
+END
+
+IDR_DRAWTOOLS1 TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_DRAW_SELECT
+    SEPARATOR
+    BUTTON      ID_DRAW_LINE
+    BUTTON      ID_DRAW_ARC
+    BUTTON      ID_DRAW_RECT
+    BUTTON      ID_DRAW_GROUND
+    BUTTON      ID_DRAW_ELLIPSE
+    BUTTON      ID_DRAW_CIRCLE
+    BUTTON      ID_DRAW_POLY
+    BUTTON      ID_DRAW_3PARC
+    BUTTON      ID_DRAW_TEXT
+    SEPARATOR
+    BUTTON      ID_VIEW_ZOOM_ZOOM
+END
+
+IDR_MAINFRAME TOOLBAR  20, 19
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE_AS
+    BUTTON      ID_BUTTON_DEL
+    SEPARATOR
+    BUTTON      32772
+    BUTTON      ID_RECTMAG
+    SEPARATOR
+    BUTTON      ID_OP_COLOR
+    BUTTON      ID_COLOR_RELATION
+    SEPARATOR
+    BUTTON      ID_VIEW_TIME
+    BUTTON      ID_VIEW_PLAY
+    BUTTON      ID_VIEW_PLAYBACK
+    BUTTON      ID_VIEW_NEXTSTEP
+    BUTTON      ID_VIEW_PRIORSTEP
+    BUTTON      ID_VIEW_GOHEAD
+    BUTTON      ID_VIEW_GOEND
+    SEPARATOR
+    BUTTON      ID_REGRESION
+    BUTTON      ID_SHAPE_ANIM
+    BUTTON      ID_VIEW_PLAYSHAPEBACK
+    BUTTON      ID_SHAPE_NEXTSTEP
+    BUTTON      ID_VIEW_SHAPEPRIOR
+    BUTTON      ID_VIEW_SHAPEGOHEAD
+    BUTTON      ID_VIEW_SHAPEGOEND
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PROP_RECT DIALOG  20, 20, 187, 86
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_CAPTION
+CAPTION "常规"
+FONT 12, "楷体_GB2312"
+BEGIN
+    GROUPBOX        "边线",IDC_STATIC,3,8,83,35
+    LTEXT           "宽度(&W)",IDC_STATIC,6,18,28,16
+    EDITTEXT        IDC_WEIGHT,33,18,35,16,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,76,18,7,
+                    16
+    GROUPBOX        "填充",IDC_STATIC,3,46,83,35
+    CONTROL         "无填充(&F)",IDC_NOFILL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,6,54,54,16
+    PUSHBUTTON      "边线颜色(&L)",ID_OBJECT_LINECOLOR,107,30,60,14
+    PUSHBUTTON      "填充颜色(&C)",ID_OBJECT_FILLCOLOR,107,49,60,14
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 239, 178
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About MLPQ/GIS and PReSTO"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "MLPQ/GIS and PReSTO Systems (Version 3.1)",IDC_STATIC,
+                    41,14,150,8,SS_NOPREFIX
+    LTEXT           "http://www.cse.unl.edu/~revesz/MLPQ/mlpq.htm",
+                    IDC_STATIC,41,131,170,8
+    DEFPUSHBUTTON   "OK",IDOK,189,146,32,14,WS_GROUP
+    LTEXT           "Department of Computer Science and Engineering",
+                    IDC_STATIC,41,112,171,8
+    LTEXT           "Peter Revesz",IDC_STATIC,57,29,44,8
+    LTEXT           "Rui Chen",IDC_STATIC,57,47,30,8
+    LTEXT           "Pradip Kanjamala",IDC_STATIC,57,56,56,8
+    LTEXT           "Yiming Li",IDC_STATIC,57,74,29,8
+    LTEXT           "Yuguo Liu",IDC_STATIC,57,83,33,8
+    LTEXT           "Yonghui Wang",IDC_STATIC,57,92,48,8
+    LTEXT           "Mengchu Cai",IDC_STATIC,57,38,43,8
+    LTEXT           "Dinesh Keshwani",IDC_STATIC,57,65,56,8
+    LTEXT           "University of Nebraska-Lincoln",IDC_STATIC,41,121,137,8
+    LTEXT           "Shasha Wu",IDC_STATIC,147,30,38,8
+    LTEXT           "Copyright (C) 1998, 2000",IDC_STATIC,41,149,119,8
+END
+
+IDD_DLG_REL_LIST DIALOG  0, 0, 188, 125
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_LIST1,7,7,174,111,LBS_MULTIPLESEL | 
+                    LBS_OWNERDRAWFIXED | LBS_NOINTEGRALHEIGHT | NOT 
+                    WS_BORDER | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DLG_INSRELATION DIALOGEX 0, 0, 276, 108
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Insert Relation"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,7,4,225,99,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,238,5,35,14
+    PUSHBUTTON      "Cancel",IDCANCEL,238,19,35,14
+    PUSHBUTTON      "Save",ID_SAVE,238,33,35,14
+    PUSHBUTTON      "Load",ID_READ,238,48,35,14
+END
+
+IDD_DLG_PROPERTY DIALOGEX 0, 0, 345, 175
+STYLE DS_SETFONT | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "Property"
+FONT 10, "Courier New", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Exit",IDOK,7,154,50,14
+    EDITTEXT        IDC_EDIT1,7,19,331,133,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL | WS_HSCROLL
+    PUSHBUTTON      "Export",IDC_BTNTable,64,154,50,14
+    EDITTEXT        IDC_EDIT2,7,7,331,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER
+END
+
+IDD_DLG_GEN_REL DIALOG  0, 0, 183, 94
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Generate"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Relation Name:",IDC_STATIC,7,14,51,11
+    COMBOBOX        IDC_COMBO1,67,15,92,66,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Object ID:",IDC_STATIC,7,41,51,11
+    EDITTEXT        IDC_EDIT2,67,40,55,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,39,73,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,104,73,50,14
+END
+
+IDD_DLG_AREA DIALOG  0, 0, 186, 81
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Area"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+    LTEXT           "Min X:",IDC_STATIC,9,10,25,8
+    EDITTEXT        IDC_EDIT_MIN,49,7,50,14,ES_AUTOHSCROLL
+    LTEXT           "Max X:",IDC_STATIC,9,29,25,8
+    EDITTEXT        IDC_EDIT_MAX,49,26,50,14,ES_AUTOHSCROLL
+    LTEXT           "Step:",IDC_STATIC,9,48,25,8
+    EDITTEXT        IDC_EDIT_STEP,49,45,50,14,ES_AUTOHSCROLL
+END
+
+IDD_DLG_TIME DIALOG  0, 0, 194, 103
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Animation"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Start:",IDC_STATIC,7,18,21,8
+    EDITTEXT        IDC_ANI_START,51,14,48,14,ES_AUTOHSCROLL
+    LTEXT           "Static",IDC_TIME_RANGE,113,20,74,8
+    LTEXT           "Step:",IDC_STATIC,7,39,31,8
+    EDITTEXT        IDC_ANI_STEP,51,35,48,14,ES_AUTOHSCROLL
+    LTEXT           "No. of steps:",IDC_STATIC,7,58,41,8
+    EDITTEXT        IDC_ANI_NOOFSTEP,51,54,48,14,ES_AUTOHSCROLL
+    LTEXT           "Speed:",IDC_STATIC,117,54,23,8
+    EDITTEXT        IDC_ANI_SPEED,144,50,27,14,ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY,172,50,10,14
+    DEFPUSHBUTTON   "OK",IDOK,44,81,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,100,81,50,14
+END
+
+IDD_DLG_GEN_REL1 DIALOG  0, 0, 186, 95
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Generate"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Relation Name:",-1,7,14,51,11
+    COMBOBOX        IDC_COMBO1,67,15,92,66,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,39,74,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,104,74,50,14
+END
+
+IDD_DIALOG_BUFFER DIALOG  0, 0, 259, 95
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Create Buffer"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,44,66,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,135,65,50,14
+    COMBOBOX        IDC_COMBO1,72,14,92,66,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT2,72,39,55,14,ES_AUTOHSCROLL
+    LTEXT           "Relation Name:",IDC_STATIC,16,14,51,13
+    LTEXT           "Distance",IDC_STATIC,16,42,52,17
+END
+
+IDD_TABLE_SELECT DIALOG  0, 0, 119, 92
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Table Selection"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,68,4,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,68,20,50,14
+    LISTBOX         IDC_LIST1,0,4,64,84,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_EXPORT_FILE DIALOG  0, 0, 239, 114
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Export File"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,171,30,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,173,67,50,14
+    LTEXT           "File Name of Spatial Information:",IDC_STATIC,29,13,115,
+                    11
+    EDITTEXT        IDC_EDIT_SPATIAL,37,25,79,12,ES_AUTOHSCROLL
+    LTEXT           "File Name of Descriptive Information:",IDC_STATIC,30,50,
+                    115,14
+    EDITTEXT        IDC_EDIT_DESCRIPTIVE,37,66,79,12,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_NAME DIALOG  0, 0, 186, 43
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Relation Name"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,140,7,39,12
+    PUSHBUTTON      "Cancel",IDCANCEL,140,23,39,12
+    EDITTEXT        IDC_EDIT1,7,7,126,29,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_TIME DIALOG  0, 0, 186, 95
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Animation"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,34,68,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,99,68,50,14
+    LTEXT           "Start:",IDC_STATIC,16,17,24,10
+    LTEXT           "Step-size:",IDC_STATIC,16,32,31,10
+    LTEXT           "No of Steps:",IDC_STATIC,16,46,39,10
+    LTEXT           "End:",IDC_STATIC,102,17,26,10
+    LTEXT           "Speed:",IDC_STATIC,102,32,23,10
+    EDITTEXT        IDC_EDIT1,58,16,33,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,57,31,33,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,57,47,33,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,127,16,33,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,128,32,33,12,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_BLOCK DIALOG  0, 0, 186, 47
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Relation Name and Time"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+    EDITTEXT        IDC_EDIT1,7,7,94,14,ES_AUTOHSCROLL
+    LTEXT           "Time",IDC_STATIC,7,28,21,13
+    EDITTEXT        IDC_EDIT2,28,26,36,13,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_AREA2 DIALOG  0, 0, 106, 50
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Area"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,13,28,37,14
+    PUSHBUTTON      "Cancel",IDCANCEL,55,28,37,14
+    EDITTEXT        IDC_EDIT1,29,7,36,13,ES_AUTOHSCROLL
+    LTEXT           "Time :",IDC_STATIC,7,7,22,8
+END
+
+IDD_DLG_COLOR DIALOG  0, 0, 227, 137
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Color Set Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,178,110,35,14
+    DEFPUSHBUTTON   "Delete",IDC_DELETE,178,80,35,14
+    DEFPUSHBUTTON   "Add",IDC_ADD,178,60,35,14
+    CONTROL         "",IDC_CUR_COLOR,"Static",SS_BLACKFRAME,178,31,35,14
+    LISTBOX         IDC_RANGE_LIST,13,31,157,93,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Variable Ranges",IDC_STATIC,65,14,53,8
+    LTEXT           "Color",IDC_STATIC,187,14,17,8
+END
+
+IDD_DLG_RANGE DIALOG  0, 0, 186, 86
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add a range"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,39,63,36,14
+    PUSHBUTTON      "Cancel",IDCANCEL,111,63,36,14
+    EDITTEXT        IDC_RANGE_LEFT,13,31,46,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RANGE_RIGHT,63,31,46,13,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RANGE_COLOR,"Static",SS_BLACKFRAME,114,31,31,13
+    DEFPUSHBUTTON   "Select",IDC_RANGE_COLOR_SELECT,146,31,27,13
+    LTEXT           "Start",IDC_STATIC,29,16,16,8
+    LTEXT           "End",IDC_STATIC,79,16,14,8
+    LTEXT           "Color",IDC_STATIC,122,16,17,8
+END
+
+IDD_INPUT DIALOG  0, 0, 223, 140
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Test Elevation, Aspect and Slope"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,49,119,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,127,119,50,14
+    LTEXT           "Input (x, y) Related to Elevation:",IDC_STATIC,25,13,
+                    102,8
+    LTEXT           "X Value:",IDC_STATIC,42,32,28,8
+    LTEXT           "Y Value:",IDC_STATIC,42,53,28,8
+    LTEXT           "Input File Name of Aspect and Slope (format: tinxx_ascii):",
+                    IDC_STATIC,25,79,180,8
+    EDITTEXT        IDC_X,83,30,84,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Y,83,51,84,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_AS,83,93,84,14,ES_AUTOHSCROLL
+END
+
+IDD_EXPO_DLG DIALOG  0, 0, 218, 102
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Exponential Animation Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Yes",IDOK,39,37,50,14
+    PUSHBUTTON      "No",IDCANCEL,116,37,50,14
+    LTEXT           "If yes, give the animation speed(1-100) : ",IDC_STATIC,
+                    25,67,128,8
+    EDITTEXT        IDC_EDIT1,155,65,35,13,ES_AUTOHSCROLL
+    LTEXT           "Do you wish to observe the exponential animation?",
+                    IDC_STATIC,23,17,161,8
+END
+
+IDD_MAXMIN_DLG DIALOG  0, 0, 216, 106
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Max/Min Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,43,85,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,123,85,50,14
+    LTEXT           "New Relation Name:",IDC_STATIC,15,20,66,8
+    LTEXT           "Evaluation Function:",IDC_STATIC,17,45,66,8
+    EDITTEXT        IDC_MAXMIN_NAME,87,18,112,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MAXMIN_FUNCTION,87,42,112,14,ES_AUTOHSCROLL
+    LTEXT           "Constant Value:",IDC_STATIC,17,63,51,8
+    EDITTEXT        IDC_MAXMIN_CONSTANT,87,60,112,14,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_STATIC,13,34,189,44
+END
+
+IDD_BASICSQL DIALOGEX 0, 0, 246, 180
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "BASIC SQL"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "VIEW NAME",IDC_STATIC,14,19,42,8
+    LTEXT           "SELECT",IDC_STATIC,14,33,28,8
+    LTEXT           "FROM",IDC_STATIC,14,47,22,8
+    LTEXT           "WHERE",IDC_STATIC,14,61,28,8
+    EDITTEXT        IDC_EDIT1,68,17,162,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,68,31,162,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,68,45,162,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,68,59,162,86,ES_MULTILINE | ES_WANTRETURN | 
+                    WS_VSCROLL | WS_HSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,11,153,45,14
+    PUSHBUTTON      "Cancel",IDCANCEL,56,153,44,14
+    PUSHBUTTON      "Save",ID_SAVE,99,153,45,14
+    PUSHBUTTON      "Load",ID_READ,144,153,45,14
+    PUSHBUTTON      "Clear",IDC_CLEAR,189,153,45,14
+END
+
+IDD_RENDER DIALOG  0, 0, 222, 63
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Time Assignment & Visualization"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,162,13,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,162,30,50,14
+    LTEXT           "Start Time",IDC_STATIC,9,15,33,8
+    LTEXT           "End Time",IDC_STATIC,9,36,31,8
+    EDITTEXT        IDC_EDIT2,62,12,57,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,62,33,57,14,ES_AUTOHSCROLL
+END
+
+IDD_AGRESQL DIALOGEX 0, 0, 254, 195
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SQL AGGREGATION"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "VIEW NAME",IDC_STATIC,16,21,42,8
+    LTEXT           "SELECT",IDC_STATIC,16,35,28,8
+    LTEXT           "FROM",IDC_STATIC,16,50,22,8
+    LTEXT           "GROUP BY",IDC_STATIC,16,133,38,8
+    EDITTEXT        IDC_EDIT1,63,18,171,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,63,32,171,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,63,47,171,13,ES_AUTOHSCROLL
+    LTEXT           "HAVING",IDC_STATIC,16,145,28,8
+    LTEXT           "WHERE",IDC_STATIC,16,62,28,8
+    EDITTEXT        IDC_EDIT6,63,61,171,67,ES_MULTILINE | ES_WANTRETURN | 
+                    WS_VSCROLL | WS_HSCROLL
+    EDITTEXT        IDC_EDIT4,63,129,171,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,63,143,171,13,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,15,167,42,14
+    PUSHBUTTON      "Cancel",IDCANCEL,57,167,42,14
+    PUSHBUTTON      "Save",ID_SAVE,99,167,44,14
+    PUSHBUTTON      "Load",ID_READ,143,167,45,14
+    PUSHBUTTON      "Clear",IDC_CLEAR,189,167,45,14
+END
+
+IDD_SQLSETS DIALOGEX 0, 0, 259, 258
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SQL SETS"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "SELECT",IDC_STATIC,13,30,28,8
+    LTEXT           "FROM",IDC_STATIC,13,44,22,8
+    LTEXT           "VIEW NAME",IDC_STATIC,13,16,42,8
+    LTEXT           "RELATION",IDC_STATIC,14,113,42,8
+    LTEXT           "SELECT",IDC_STATIC,13,128,28,8
+    LTEXT           "FROM",IDC_STATIC,13,142,22,8
+    LTEXT           "WHERE",IDC_STATIC,13,157,28,8
+    LTEXT           "WHERE",IDC_STATIC,13,60,28,8
+    EDITTEXT        IDC_EDIT11,59,14,175,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT12,59,28,176,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT13,59,42,175,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT14,59,56,175,54,ES_MULTILINE | ES_WANTRETURN | 
+                    WS_VSCROLL | WS_HSCROLL
+    COMBOBOX        IDC_EDIT15,59,111,71,41,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT16,59,125,175,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT17,59,139,175,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT18,59,154,175,60,ES_MULTILINE | ES_WANTRETURN | 
+                    WS_VSCROLL | WS_HSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,15,225,41,14
+    PUSHBUTTON      "Cancel",IDCANCEL,56,225,42,14
+    PUSHBUTTON      "Save",ID_SAVE,98,225,45,14
+    PUSHBUTTON      "Load",ID_READ,143,225,45,14
+    PUSHBUTTON      "Clear",IDC_CLEAR,189,225,45,14
+END
+
+IDD_NESTED_SQL DIALOGEX 0, 0, 302, 230
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "NESTED SQL"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "VIEW NAME",IDC_STATIC,14,16,42,8
+    LTEXT           "SELECT",IDC_STATIC,14,29,28,8
+    LTEXT           "FROM",IDC_STATIC,14,43,22,8
+    LTEXT           "WHERE",IDC_STATIC,14,57,28,8
+    EDITTEXT        IDC_EDIT1,71,13,211,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,71,27,211,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,71,41,211,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,71,56,211,55,ES_MULTILINE | ES_WANTRETURN | 
+                    WS_VSCROLL | WS_HSCROLL
+    COMBOBOX        IDC_EDIT5,14,115,50,65,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "SELECT",IDC_STATIC,72,117,28,8
+    LTEXT           "FROM",IDC_STATIC,72,131,22,8
+    LTEXT           "WHERE",IDC_STATIC,72,146,28,8
+    EDITTEXT        IDC_EDIT6,112,115,170,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,112,129,170,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,112,143,170,55,ES_MULTILINE | ES_WANTRETURN | 
+                    WS_VSCROLL | WS_HSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,46,207,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,96,207,50,14
+    PUSHBUTTON      "Save",ID_SAVE,146,207,45,14
+    PUSHBUTTON      "Load",ID_READ,191,207,45,14
+    PUSHBUTTON      "Clear",IDC_CLEAR,237,207,45,14
+END
+
+IDD_SQLDIALOGBOX DIALOGEX 0, 0, 232, 89
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SQL QUERIES"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,72,68,87,14
+    PUSHBUTTON      "SQL - BASIC",IDC_BUTTONBSQL,72,7,88,14
+    PUSHBUTTON      "SQL - AGGREGATION",IDC_BUTTONASQL,21,25,88,14
+    PUSHBUTTON      "SQL - SETS",IDC_BUTTONSSQL,21,46,88,14
+    PUSHBUTTON      "SQL - NESTED",IDC_BUTTONNSQL,123,25,88,14
+    PUSHBUTTON      "SQL - Recursion",IDC_BUTTONSQLR,123,46,88,14
+END
+
+IDD_APPROXIMATION DIALOGEX 0, 0, 183, 112
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Approximation Setup"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,74,91,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,126,91,50,14
+    LTEXT           "Approximation Bound",IDC_STATIC,21,71,84,8
+    CONTROL         "Use Appoximation",IDC_APPROX_TRUE,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,21,12,99,9
+    EDITTEXT        IDC_APPROX_VALUE,110,68,48,12,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_STATIC,23,27,141,35
+    CONTROL         "Lower Bound",IDC_RADIO_LOWER_BOUND,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,29,41,58,10
+    CONTROL         "Upper Bound",IDC_RADIO_UPPER_BOUND,"Button",
+                    BS_AUTORADIOBUTTON,98,42,58,10
+END
+
+IDD_DLG_SQLRecursion DIALOGEX 0, 0, 267, 238
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "SQL Recursion"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,217,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,58,217,50,14
+    EDITTEXT        IDC_RECUR_SEL1,65,40,174,13,ES_AUTOHSCROLL
+    LTEXT           "SELECT",IDC_STATIC,27,42,25,8
+    EDITTEXT        IDC_RECUR_FROM1,65,54,174,13,ES_AUTOHSCROLL
+    LTEXT           "FROM",IDC_STATIC,27,56,20,8
+    EDITTEXT        IDC_RECUR_WHERE1,65,68,174,23,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN
+    LTEXT           "WHERE",IDC_STATIC,27,70,25,8
+    EDITTEXT        IDC_RECUR_VIEW,81,15,166,13,ES_AUTOHSCROLL
+    LTEXT           "RECURSIVE View",IDC_STATIC,20,17,60,8
+    EDITTEXT        IDC_RECUR_SEL2,65,119,174,13,ES_AUTOHSCROLL
+    LTEXT           "SELECT",IDC_STATIC,27,122,25,8
+    EDITTEXT        IDC_RECUR_FROM2,65,134,174,13,ES_AUTOHSCROLL
+    LTEXT           "FROM",IDC_STATIC,27,135,20,8
+    EDITTEXT        IDC_RECUR_WHERE2,65,148,173,23,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN
+    LTEXT           "WHERE",IDC_STATIC,27,150,25,8
+    GROUPBOX        "AS (basic rule)",IDC_STATIC,15,31,235,67
+    PUSHBUTTON      "Save",IDC_SQLRecSave,109,217,50,14
+    PUSHBUTTON      "Load",IDC_SQLRecLoad,159,217,50,14
+    PUSHBUTTON      "Clear",IDC_SQLRecClear,210,217,50,14
+    GROUPBOX        "UNION (recursive rule)",IDC_STATIC,16,105,235,72
+    PUSHBUTTON      "|<<",IDC_BtnFirst,17,184,23,17
+    PUSHBUTTON      ">>|",IDC_BtnLast,113,184,23,17
+    PUSHBUTTON      "<",IDC_BtnPrev,41,184,23,17
+    PUSHBUTTON      ">",IDC_BtnNext,89,184,23,17
+    PUSHBUTTON      "Add",IDC_BtnAdd,137,184,39,17
+    PUSHBUTTON      "Del",IDC_BtnDelete,215,184,38,17
+    PUSHBUTTON      "Save",IDC_BtnSave,177,184,36,17
+    EDITTEXT        IDC_POS_ID,64,184,24,17,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    GROUPBOX        "",IDC_STATIC,7,7,253,203
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_PENCIL              CURSOR                  "RES\\PENCIL.CUR"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\idb.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About MLPQ...",              ID_APP_ABOUT
+        MENUITEM "Listen",                      IDC_LISTEN
+        MENUITEM "Test",                        IDC_TEST
+    END
+END
+
+IDR_IDBTYPE MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        POPUP "&Import File\tCtrl+I"
+        BEGIN
+            MENUITEM "Polygon File",                ID_IMPORT_POLYGON
+            MENUITEM "Point File",                  ID_FILE_IMPORTFILE_POINT
+            MENUITEM "MS Access Files",             ID_IMPORT_MDB
+            MENUITEM "Import Line",                 ID_IMPORT_LINE
+            MENUITEM "Elevation File",              ID_FILE_IMPORTFILE_ELEVATION
+
+        END
+        MENUITEM "&Export File \tCtrl+E",       ID_FILE_EXPORT
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "&Ins Relation",               ID_EDIT_INSRELATION
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "Zoom &In",                    ID_VIEW_ZOOMIN
+        MENUITEM "Zoom &Out",                   ID_VIEW_ZOOMOUT
+        MENUITEM SEPARATOR
+        MENUITEM "Animation...",                ID_VIEW_TIME
+        MENUITEM "Play",                        ID_VIEW_PLAY
+        MENUITEM "Play Back",                   ID_VIEW_PLAYBACK
+        MENUITEM "Go Start",                    ID_VIEW_GOHEAD
+        MENUITEM "Go End",                      ID_VIEW_GOEND
+        MENUITEM "Next Step",                   ID_VIEW_NEXTSTEP
+        MENUITEM "Prior Step",                  ID_VIEW_PRIORSTEP
+        MENUITEM SEPARATOR
+        MENUITEM "&Execution Time",             ID_VIEW_EXECUTIONTIME
+        MENUITEM SEPARATOR
+        MENUITEM "Same Relation Color",         ID_VIEW_SAMERELATIONCOLOR
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&New Window",                 ID_WINDOW_NEW
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+        MENUITEM "S&plit",                      ID_WINDOW_SPLIT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About MLPQ...",              ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F5,          ID_VIEW_ZOOMIN,         VIRTKEY, CONTROL, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_VIEW_ZOOMOUT,        VIRTKEY, CONTROL, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "idb MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "idb"
+            VALUE "LegalCopyright", "Copyright (C) 1997"
+            VALUE "OriginalFilename", "idb.EXE"
+            VALUE "ProductName", "idb Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 232
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 166
+    END
+
+    IDD_DLG_REL_LIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 118
+    END
+
+    IDD_DLG_INSRELATION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 273
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 103
+    END
+
+    IDD_DLG_PROPERTY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 338
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_DLG_GEN_REL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 176
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_DLG_AREA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 74
+    END
+
+    IDD_DLG_TIME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 187
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 95
+    END
+
+    IDD_DLG_GEN_REL1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_DIALOG_BUFFER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 252
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_EXPORT_FILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 232
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 109
+    END
+
+    IDD_DIALOG_NAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 36
+    END
+
+    IDD_DIALOG_TIME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_DIALOG_BLOCK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 40
+    END
+
+    IDD_DIALOG_AREA2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 99
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 43
+    END
+
+    IDD_DLG_COLOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 220
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 130
+    END
+
+    IDD_DLG_RANGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+
+    IDD_INPUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 216
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 133
+    END
+
+    IDD_EXPO_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 95
+    END
+
+    IDD_MAXMIN_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 209
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 99
+    END
+
+    IDD_BASICSQL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 239
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_RENDER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 215
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_AGRESQL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 187
+    END
+
+    IDD_SQLSETS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 252
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 251
+    END
+
+    IDD_NESTED_SQL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 224
+    END
+
+    IDD_SQLDIALOGBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 225
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 82
+    END
+
+    IDD_APPROXIMATION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 176
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 105
+    END
+
+    IDD_DLG_SQLRecursion, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 260
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 231
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Icon2.ico"
+IDR_IDBTYPE             ICON                    "res\\nebraska.ico"
+IDI_ICON2               ICON                    "res\\ico00001.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_NESTED_SQL DLGINIT
+BEGIN
+    IDC_EDIT5, 0x403, 3, 0
+0x6e69, "\000" 
+    IDC_EDIT5, 0x403, 7, 0
+0x6f6e, 0x2074, 0x6e69, "\000" 
+    IDC_EDIT5, 0x403, 7, 0
+0x3d3e, 0x6120, 0x6c6c, "\000" 
+    IDC_EDIT5, 0x403, 7, 0
+0x3d3c, 0x6120, 0x6c6c, "\000" 
+    IDC_EDIT5, 0x403, 8, 0
+0x3d3e, 0x7320, 0x6d6f, 0x0065, 
+    IDC_EDIT5, 0x403, 8, 0
+0x3d3c, 0x7320, 0x6d6f, 0x0065, 
+    0
+END
+
+IDD_SQLSETS DLGINIT
+BEGIN
+    IDC_EDIT15, 0x403, 10, 0
+0x4e49, 0x4554, 0x5352, 0x4345, 0x0054, 
+    IDC_EDIT15, 0x403, 6, 0
+0x4e55, 0x4f49, 0x004e, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "MLPQ/PReSTO - University of Nebraska-Lincoln"
+    IDR_IDBTYPE             "\nIdb\nIdb\n\n\nIdb.Document\nIdb Document"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "MLPQ"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+    ID_INDICATOR_POS        "(10000,10000)"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_NEW           "Open another window for the active document\nNew Window"
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window\nArrange Icons"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap\nCascade Windows"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    AFX_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+    IDS_CANNOT_SAVE_IDB     "Can not save IDB file"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_ZOOMIN          "Zoom In\nZoom In"
+    ID_VIEW_ZOOMOUT         "Zoom Out\nZoom Out"
+    ID_DRAW_SELECT          "Select an object\nSelect"
+    ID_DRAW_LINE            "Draw a line\nLine"
+    ID_DRAW_RECT            "Draw a rectangle\nRectangle"
+    ID_EDIT_INSRELATION     "Input Datalog Query\nDatalog"
+    ID_DRAW_POLY            "Draw a polygon\nPolygon"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_DRAW_ARC             "Draw a curve\nCurve"
+    ID_GENERATE_REL         "Insert the drawing object\nInsert Drawing"
+    ID_BUTTON32790          "Union Operation\nUnion"
+    ID_BUTTON32795          "Intersection Operation\nIntersection"
+    ID_OP_UNION             "Union Operation\nUnion"
+    ID_OP_INTERSECTION      "Intersection Operation\nIntersection"
+    ID_OP_AREA              "Compute Area\nArea"
+    ID_VIEW_TIME            "Input parameters of animation\nAnimation"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_PLAY            "Animation forward\nPlay"
+    ID_VIEW_PLAYBACK        "Animation backward\nPlay Back"
+    ID_VIEW_GOHEAD          "Display start time\nGo Start"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_GOEND           "Display end time\nGo End"
+    ID_VIEW_NEXTSTEP        "Display next step\nNext Step"
+    ID_VIEW_PRIORSTEP       "Display prior step\nPrior Step"
+    ID_FILE_IMPORTFILE      "Import ARC/INFO ungenerated file"
+    ID_BUFFER               "Create Buffer\nBuffer"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BUTTON_MIN           "Get Minimum\nMinimum"
+    ID_MENUITEM32842        "Ignore time (t) parameter. Not animation example."
+    ID_FILE_IMPORTFILE_POINT "Please choose a points file to import"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_DISPLAY_INTERSN      "Display Intersection\nIntersection"
+    ID_OP_COMPLEMENT        "Complement Operation\nComplement"
+    ID_OP_MINUS             "Difference Operation (For PReSTO only)\nDifference"
+    ID_OP_BLOCK             "Block Operation (For PReSTO only)\nBlock"
+    ID_BUTTON_SIM_QUERY     "Similarity Query\nSimilarity"
+    ID_OP_COLLIDE           "Collision Operator (For PReSTO only)\nCollide"
+    ID_VIEW_SAMECOLOR       "Display the same color or not\nSame Color?"
+    ID_OP_COLOR             "Set ranges and colors \nSet Range and Color"
+    ID_COLOR_RELATION       "Make the relations have different colors\nColor Relation"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_SQL                  "SQL \n SQL"
+    ID_REGRESION            "Input Regression Time Instances"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_SQL_DIALOG           "Input SQL Query\nSQL"
+    ID_SHAPE_ANIM           "Play Regression Animation"
+    ID_SHAPE_NEXTSTEP       "Regression Animation Next Step"
+    ID_VIEW_SHAPEPRIOR      "Regression Animation Prior Step"
+    ID_VIEW_PLAYSHAPEBACK   "Play Backward Regression Animation"
+    ID_VIEW_SHAPEGOHEAD     "Regression Start Time"
+    ID_VIEW_SHAPEGOEND      "Regression End Time"
+    ID_RECTMAG              "Draw a rectangle to magnify\nZoom in by rectangle"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APPROXIMATION        "Used to set approximation bound"
+    ID_BUTTON_DEL           "Remove selected relations\nDelete"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\idb.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

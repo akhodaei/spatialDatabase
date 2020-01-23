@@ -1,0 +1,68 @@
+           Discription of the two-dimentional 
+            Convex Hull algorithm:
+
+Date: July 31, 97
+              
+Given N straight line l1,l2,l3,...lN.
+
+Wish to find out the sequenced extrem points(convex hull).
+
+1. Build up a structure which can hold analysis result:
+class Point{
+    float m_x;
+    float m_y;
+} 
+class AnalysisNode{
+    Point m_X;
+    int m_line1;
+    int m_line2;
+    Boolean m_flag;
+}
+
+use a linked list to store a list of AnalysisNode.
+AnalysisNode* NodeList;
+
+2. for each pair of line li,lj,
+   if (not Parallel(l1,l2))
+      Point P = Intersection(l1,l2);
+   if (P satisfy all constraints)   
+       add an entry (P, l1, l2, m_flag=0) to the NodeList,
+
+
+3. for each line(i=1 to N) do
+       check if NodeList has:
+       two different Points related with line i.
+
+       if not, set the m_flag of every entry in
+       the NodeList with (m_line1 = i or m_line2 = i)  
+       to false. this means line i is not a edge of
+       the convex hull.
+    end for
+        
+4. construct the sequenced Extreme Point List.
+
+if number of entries in the  NodeList <=2;
+  return the Points included in the List.
+else:
+AnalysisNode p <- first entry with (m_flag=true)
+in  the NodeList.     
+int line =  p->m_line1;  
+while (p!=NULL) do
+{
+    search in the NodeList, find
+    a new entry q different from p, with
+    (q->m_flag=true && (q->m_line1 = line|| q->m_line2=line)).
+    if can find such a entry q,  then
+    { 
+        if (q->m_line1 = line)
+           line = q->m_line2;
+        else line = q->m_line1;
+     }
+     else {p= NULL; break}
+    insert p->m_X to a Point List, delete
+    p from the  NodeList.
+    set p = q; 
+}
+
+return the Point List, which will include the
+sequenced convex points.

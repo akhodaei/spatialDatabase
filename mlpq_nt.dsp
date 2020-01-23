@@ -1,0 +1,738 @@
+# Microsoft Developer Studio Project File - Name="idb" - Package Owner=<4>
+# Microsoft Developer Studio Generated Build File, Format Version 6.00
+# ** DO NOT EDIT **
+
+# TARGTYPE "Win32 (x86) Application" 0x0101
+
+CFG=idb - Win32 Debug
+!MESSAGE This is not a valid makefile. To build this project using NMAKE,
+!MESSAGE use the Export Makefile command and run
+!MESSAGE 
+!MESSAGE NMAKE /f "mlpq_nt.mak".
+!MESSAGE 
+!MESSAGE You can specify a configuration when running NMAKE
+!MESSAGE by defining the macro CFG on the command line. For example:
+!MESSAGE 
+!MESSAGE NMAKE /f "mlpq_nt.mak" CFG="idb - Win32 Debug"
+!MESSAGE 
+!MESSAGE Possible choices for configuration are:
+!MESSAGE 
+!MESSAGE "idb - Win32 Debug" (based on "Win32 (x86) Application")
+!MESSAGE 
+
+# Begin Project
+# PROP AllowPerConfigDependencies 0
+# PROP Scc_ProjName ""
+# PROP Scc_LocalPath ""
+CPP=cl.exe
+MTL=midl.exe
+RSC=rc.exe
+# PROP BASE Use_MFC 5
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "idb___Wi"
+# PROP BASE Intermediate_Dir "idb___Wi"
+# PROP BASE Ignore_Export_Lib 0
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 5
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "Debug"
+# PROP Intermediate_Dir "Debug"
+# PROP Ignore_Export_Lib 0
+# PROP Target_Dir ""
+# ADD BASE CPP /nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /FR /YX /FD /c
+# ADD CPP /nologo /MT /W3 /Gi /GR /GX /Zi /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /FR /YX /FD /c
+# ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /o /win32 "NUL"
+# ADD MTL /nologo /D "NDEBUG" /mktyplib203 /o /win32 "NUL"
+# ADD BASE RSC /l 0x409 /d "NDEBUG"
+# ADD RSC /l 0x409 /d "NDEBUG"
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 /nologo /subsystem:windows /machine:I386
+# ADD LINK32 /nologo /subsystem:windows /profile /debug /machine:I386
+# SUBTRACT LINK32 /map
+# Begin Target
+
+# Name "idb - Win32 Debug"
+# Begin Group "Source Files"
+
+# PROP Default_Filter "cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
+# Begin Source File
+
+SOURCE=.\arg.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\BasicSQL.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\basicsqldialogbox.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\BitmapFile.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\ChildFrm.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\construct.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\csa_debug.c
+# SUBTRACT CPP /O<none>
+# End Source File
+# Begin Source File
+
+SOURCE=.\csa_q_main.c
+# End Source File
+# Begin Source File
+
+SOURCE=.\csa_stack.c
+# End Source File
+# Begin Source File
+
+SOURCE=.\db.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\debug.c
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgApproximation.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgArea.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgArea2.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgBlock.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgBuffer.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgColor.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgExpo.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgExport.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgGenN.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgInput.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgInsR.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgMaxMin.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgName.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgNtime.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgProp.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgRange.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgRelName.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\dlist.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\engine.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\ex29aView.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\globals.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\GraphView.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\hash.c
+# End Source File
+# Begin Source File
+
+SOURCE=.\hulconvt.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\hulreconvt.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\idb.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\idb.rc
+# End Source File
+# Begin Source File
+
+SOURCE=.\idbDoc.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\idbView.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\list.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\LP.C
+# End Source File
+# Begin Source File
+
+SOURCE=.\lp_solve.c
+# End Source File
+# Begin Source File
+
+SOURCE=.\lpkit.c
+# End Source File
+# Begin Source File
+
+SOURCE=.\MainFrm.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\MatrixView.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\misc.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\monotone.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\myparse.c
+# End Source File
+# Begin Source File
+
+SOURCE=.\NewSocket.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\OnNestedSql.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\OnsetReg.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\OwnListBox.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\parse.c
+# End Source File
+# Begin Source File
+
+SOURCE=.\parser.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\PointView.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\read.c
+# End Source File
+# Begin Source File
+
+SOURCE=.\readmps.c
+# End Source File
+# Begin Source File
+
+SOURCE=.\refine.c
+# End Source File
+# Begin Source File
+
+SOURCE=.\relation.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Render.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\RowView.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\scanner.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\SCDrawobj.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\SCDrawtool.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\ServerSocket.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\simplexlcs.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\slist.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\solve.c
+# End Source File
+# Begin Source File
+
+SOURCE=.\SqlAggregation.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\SqlDialogBox.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\SqlSets.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\stack.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\StdAfx.cpp
+# ADD CPP /Yc"stdafx.h"
+# End Source File
+# Begin Source File
+
+SOURCE=.\string.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\TableSel.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\timer.c
+# End Source File
+# Begin Source File
+
+SOURCE=.\tri.cpp
+# ADD CPP /GB /MT /w /W0 /Gm /Gi- /GR- /O1 /FR /YX
+# End Source File
+# Begin Source File
+
+SOURCE=.\update_epsilon.c
+# End Source File
+# Begin Source File
+
+SOURCE=.\JpegLib.lib
+# End Source File
+# End Group
+# Begin Group "Header Files"
+
+# PROP Default_Filter "h;hpp;hxx;hm;inl"
+# Begin Source File
+
+SOURCE=.\arg.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\BasicSQL.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\basicsqldialogbox.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\BitmapFile.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\ChildFrm.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\csa_defs.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\csa_types.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\db.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgApproximation.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgArea.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgArea2.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgBlock.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgBuffer.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgColor.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgExpo.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgGenN.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgInput.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgInsR.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgMaxMin.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgName.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgNegation.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgNtime.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgProp.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgRange.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\DlgRelName.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\dlist.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\engine.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\ex29aView.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\globals.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\GraphView.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\hulstruct.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\idb.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\idbDoc.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\idbView.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\JCONFIG.H
+# End Source File
+# Begin Source File
+
+SOURCE=.\JMORECFG.H
+# End Source File
+# Begin Source File
+
+SOURCE=.\JPEGLIB.H
+# End Source File
+# Begin Source File
+
+SOURCE=.\list.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\MainFrm.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\matrix.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\MatrixView.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\myparse.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\NewSocket.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\OnNestedSql.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\OnsetReg.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\OwnListBox.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\parser.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\PointView.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\range.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\relation.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\Render.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\Resource.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\RowView.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\scanner.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\scdrawobj.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\SCDrawtool.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\ServerSocket.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\slist.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\SqlAggregation.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\SqlDialogBox.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\SqlSets.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\stack.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\StdAfx.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\string.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\TableSel.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\test.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\triangulate.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\utilities.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\vector.h
+# End Source File
+# End Group
+# Begin Group "Resource Files"
+
+# PROP Default_Filter "ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe"
+# Begin Source File
+
+SOURCE=.\res\bitmap1.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\cursor1.cur
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\drawtool.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\ico00001.ico
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\icon1.ico
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\Icon2.ico
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\idb.ico
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\idb.rc2
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\idbDoc.ico
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\nebraska.ico
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\PENCIL.CUR
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\Toolbar.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\toolbar1.bmp
+# End Source File
+# End Group
+# Begin Source File
+
+SOURCE=.\h2
+# End Source File
+# Begin Source File
+
+SOURCE=.\parser.y
+# End Source File
+# Begin Source File
+
+SOURCE=.\ReadMe.txt
+# End Source File
+# Begin Source File
+
+SOURCE=.\scanner.l
+# End Source File
+# End Target
+# End Project

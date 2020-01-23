@@ -1,0 +1,18 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "idb", "mlpq_nt.vcproj", "{881D41B9-618B-4499-AF6C-672286EFE9DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{881D41B9-618B-4499-AF6C-672286EFE9DA}.Debug.ActiveCfg = Debug|Win32
+		{881D41B9-618B-4499-AF6C-672286EFE9DA}.Debug.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
